@@ -2,7 +2,7 @@ package main
 
 import (
   "io/ioutil"
-  "log"
+  "fmt"
   "net/http"
 )
 
@@ -16,5 +16,5 @@ func main() {
   if err != nil {
     panic(err)
   }
-  log.Println(string(body))
+  fmt.Println("レスポンスボディ->", string(body))
 }
