@@ -1,0 +1,5 @@
+This is text file.
+
+A
+B
+C.
