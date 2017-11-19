@@ -12,6 +12,7 @@ func main() {
   if err != nil {
     panic(err)
   }
+  request.Header.Add("Content-Type", "*/*")
   resp, err := client.Do(request)
   if err != nil {
     panic(err)
